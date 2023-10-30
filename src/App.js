@@ -12,6 +12,18 @@ import Image3 from "./image/image3.png";
 import Image4 from "./image/image4.png";
 import ImageL from "./image/imageL.png";
 import ImageR from "./image/imageR.png";
+import Image5 from "./image/image5.png";
+import Image6 from "./image/image6.png";
+import ImageL2 from "./image/imageL2.png";
+import ImageR2 from "./image/imageR2.png";
+import Image7 from "./image/image7.png";
+import Image8 from "./image/image8.png";
+import Ilogo2 from "./image/Ilogo2.png";
+import Ilogo3 from "./image/Ilogo3.png";
+import Ilogo4 from "./image/Ilogo4.png";
+import Ilogo5 from "./image/Ilogo5.png";
+import Ilogo6 from "./image/Ilogo6.png";
+import Ilogo7 from "./image/Ilogo7.png";
 
 function App() {
   return (
@@ -65,11 +77,37 @@ function App() {
         <Image className='imageL' src={ImageL} rounded />
         <Image className='imageR' src={ImageR} rounded />
         <Image className='image4' src={Image4} rounded />
-          <h3>Favoriser l’éveil et l’autonomie de l’enfant  </h3>
-          <h3>Soutenir l’enfant dans ses émotions et ses désirs</h3>
-          <h3>Situer les parents au centre de notre projet</h3>
+        <h3 className='comentaire1'> <div>Favoriser l’éveil</div>et l’autonomie de l’enfant  </h3>
+        <h3 className='comentaire2'> <div>Soutenir l’enfant dans </div>ses émotions et ses désirs</h3>
+        <h3 className='comentaire3'> <div>Situer les parents </div>Situer les parents au centre de notreprojet</h3>
+        <h3 className='comentaire4'> <div>Assurer à l’enfant une sécurité</div> affective et physique </h3>
+        <h3 className='comentaire5'> <div>Respecte les rythmes</div> et repéres de l'enfant</h3>
+        <h3 className='comentaire6'> <div>gatantir à chacun</div> des soins individualisés </h3>
       </Container>
-       
+      <Container>
+        <h1 className='titre2'><div><samp className='par1'>UN ENSEIGNEMENT</samp><samp className='par2'> TRILINGUR</samp></div> <samp className='par3'> D’EXCELLENCE DE</samp><samp className='par4'> LA CRECHE AU LYCEE</samp> </h1>
+        <Image className='image5' src={Image5} rounded />
+        <Image className='image6' src={Image6} rounded />
+        <p className='pragraph2'>L’enseignement trilingue adopté par notre établissement aide </p>
+        <h1 className='RAISONS'><div>6 RAISONS</div> POUR NOUS CHOISIR</h1>
+        <Image className='imageL2' src={ImageL2} rounded />
+        <Image className='imageR2' src={ImageR2} rounded />
+        <Image className='image7' src={Image7} rounded />
+        <Image className='image8' src={Image8} rounded />
+        <Image className='Ilogo2' src={Ilogo2} rounded />
+        <Image className='Ilogo3' src={Ilogo3} rounded />
+        <Image className='Ilogo4' src={Ilogo4} rounded />
+        <Image className='Ilogo5' src={Ilogo5} rounded />
+        <Image className='Ilogo6' src={Ilogo6} rounded />
+        <Image className='Ilogo7' src={Ilogo7} rounded />
+
+      </Container>
+      <Container>
+        
+
+      </Container>
+
+
     </div>
   );
 }

@@ -1,112 +1,304 @@
-
-.navbar{
+.navbar {
   background-color: rgb(246, 244, 244);
 }
 
-.me-auto{
+.me-auto {
   margin-left: 200px;
 }
-.inscription{
+
+.inscription {
   margin-left: 30px;
   background-color: darkorange;
   border-radius: 10px;
 }
 
-.coleur:hover{
+.coleur:hover {
   background-color: darkorange;
   border-radius: 15px;
   color: white;
 }
-.video{
+
+.video {
   width: 100%;
 }
-.texte{
-   margin-top: 15px;
-    font-size: 32px;
-    font-family: "Poppins";
-    color: rgb(18, 53, 86);
-    font-weight: bold;
-    text-transform: uppercase;
-    text-align: center;   
+
+.texte {
+  margin-top: 15px;
+  font-size: 32px;
+  font-family: "Poppins";
+  color: rgb(18, 53, 86);
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
 }
-.texte2{
-    font-style: italic;
-    font-family: "MeowScript";
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    
+
+.texte2 {
+  font-style: italic;
+  font-family: "MeowScript";
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
 }
-.border1{
-  
+
+.border1 {
+
   background-color: #073d6a;
   border-color: rgb(0, 36, 125);
   border-style: solid;
   width: 70px;
   margin-left: 600px;
 }
-.parti2{
+
+.parti2 {
   margin-top: 40px;
   padding: 50px;
   background-color: #073d6a;
   width: 70%;
 }
-.paragraphe{
-    margin-left: 100px;
-    font-size: 19px;
-    font-family: "Montserrat";
-    color: rgb(255, 255, 255);
+
+.paragraphe {
+  margin-left: 100px;
+  font-size: 19px;
+  font-family: "Montserrat";
+  color: rgb(255, 255, 255);
 }
+
 .Mot_du {
   margin-left: 100px;
   font-size: 22px;
   font-family: "Oswald";
   color: rgb(255, 255, 255);
 }
-.image3{
+
+.image3 {
   width: 300px;
   margin-left: 880px;
   position: absolute;
   margin-top: -340px;
 
 }
-.image2{
+
+.image2 {
   margin-left: 890px;
   width: 300px;
   position: absolute;
   margin-top: -340px;
 }
-.test{
+
+.test {
   background-color: #f1c40f;
-  color:#ffffff;
-}
-.notre_charte{
- 
-    
-    font-family: "Montserrat";
-    color: rgb(7, 61, 106);
-    font-weight: bold;
-    margin-top: 30px;
-    text-align: center;
+  color: #ffffff;
 }
 
-.imageL{
-  
-margin-left: 450px;
-position: absolute;
-margin-top: -75px;
+.notre_charte {
+
+
+  font-family: "Montserrat";
+  color: rgb(7, 61, 106);
+  font-weight: bold;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.imageL {
+
+  margin-left: 450px;
+  position: absolute;
+  margin-top: -75px;
 
 
 }
-.imageR{
-margin-left: 795px;
-position: absolute;
-margin-top: -75px;
+
+.imageR {
+  margin-left: 795px;
+  position: absolute;
+  margin-top: -75px;
 
 }
-.image4{
+
+.image4 {
   width: 100%;
 }
 
+.comentaire1 {
+  font-size: 21px;
+  font-family: "Montserrat";
+  color: rgb(1, 37, 78);
+  position: absolute;
+  margin-left: 900px;
+  margin-top: -480px;
+  text-align: center;
 
+}
 
+.comentaire2 {
+  font-size: 21px;
+  font-family: "Montserrat";
+  color: rgb(1, 37, 78);
+  position: absolute;
+  margin-left: 900px;
+  margin-top: -370px;
+  text-align: center;
+
+}
+
+.comentaire3 {
+  font-size: 21px;
+  font-family: "Montserrat";
+  color: rgb(1, 37, 78);
+  position: absolute;
+  margin-left: 800px;
+  margin-top: -250px;
+  text-align: center;
+
+}
+
+.comentaire4 {
+  font-size: 21px;
+  font-family: "Montserrat";
+  color: rgb(1, 37, 78);
+  position: absolute;
+  margin-left: 190px;
+  margin-top: -530px;
+  text-align: center;
+}
+
+.comentaire5 {
+  font-size: 21px;
+  font-family: "Montserrat";
+  color: rgb(1, 37, 78);
+  position: absolute;
+  margin-top: -410px;
+  margin-left: 190px;
+  text-align: center;
+}
+
+.comentaire6 {
+  font-size: 21px;
+  font-family: "Montserrat";
+  color: rgb(1, 37, 78);
+  position: absolute;
+  margin-top: -310px;
+  margin-left: 190px;
+  text-align: center;
+}
+
+.titre2 {
+  font-size: 50px;
+  font-family: "Montserrat";
+
+}
+
+.image5 {
+  width: 300px;
+  position: absolute;
+}
+
+.image6 {
+  position: absolute;
+  margin-top: 110px;
+  margin-left: 50px;
+  width: 380px;
+
+}
+
+.titre2 {
+  position: absolute;
+  margin-left: 320px;
+}
+
+.par1 {
+  color: #f1c40f;
+  font-family: "Montserrat";
+}
+
+.par2 {
+  background-color: #073d6a;
+  font-family: "Montserrat";
+}
+
+.par3 {
+  color: #f1c40f;
+  font-family: "Montserrat";
+}
+
+.par4 {
+  color: #073d6a;
+  font-family: "Montserrat";
+}
+
+.pragraph2 {
+  position: absolute;
+  margin-left: 500px;
+  margin-top: 150px;
+  font-size: 20px;
+  font-family: "Montserrat";
+  color: rgb(0, 32, 77);
+}
+.RAISONS{
+  font-family: "Montserrat";
+  color: rgb(7, 61, 106);
+  position: absolute;
+  margin-top: 410px;
+  margin-left:30%;
+  text-align: center;
+
+}
+.imageL2{
+  margin-top: 500PX;
+  position: absolute;
+  margin-left: 470px;
+  margin-top:420px;
+}
+.imageR2{
+  margin-top: 500PX;
+  position: absolute;
+  margin-left: 899px;
+  margin-top:420px;
+}
+.image7{
+  position: absolute;
+  margin-top: 347px;
+}
+.image8{
+  position: absolute;
+  margin-top: 430px;
+  margin-left: 150px;
+  width:950px;
+  
+}
+.Ilogo2{
+  position: absolute;
+  margin-top: 600px;
+  margin-left: 130px;
+}
+.Ilogo3{
+  position: absolute;
+  margin-top: 770px;
+  margin-left: 10px;
+}
+.Ilogo4{
+  position: absolute;
+  margin-top: 1000px;
+  margin-left: 60px;
+}
+.Ilogo5{
+  position: absolute;
+  margin-top: 590px;
+  margin-left: 800px;
+}
+
+.Ilogo6{
+  
+  position: absolute;
+  margin-top: 770px;
+  margin-left: 960px;
+
+  
+}
+.Ilogo7{
+  position: absolute;
+  margin-top: 1010px;
+  margin-left: 900px;
+}
